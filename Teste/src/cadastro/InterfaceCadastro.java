@@ -133,23 +133,12 @@ public class InterfaceCadastro extends javax.swing.JFrame {
     private void tfIdActionPerformed(java.awt.event.ActionEvent evt) {                                     
        
     }                                    
-
+// reutilizar
     private void addEleitorActionPerformed(java.awt.event.ActionEvent evt) {                                           
-       String nome = tfnome.getText();
-       String id = tfId.getText();
-       
-       Eleitor c = new Eleitor (nome, id );
-       dados.cadastraEleitor(c);
-       
-       jLabel1.setText(dados.numerosEdeleitor());
-       System.out.println(c.getNome());
-       
-       JOptionPane.showMessageDialog(this, "eleitor cadastrado");
-       
-       tfnome.setText("");
-       tfId.setText("");
-       
-    }                                          
+
+    }  
+    
+
 
 
     // Variables declaration - do not modify                     

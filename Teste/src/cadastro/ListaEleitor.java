@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class ListaEleitor {
 	
-	public void lista() {
+	public static void main(String [] args) {
 	
 	ArrayList<Eleitor> eleitores = new ArrayList<>();	
 	
@@ -13,6 +13,7 @@ public class ListaEleitor {
 	}
 	
 	System.out.println("Total de eleitores:" + eleitores.size());
+	
 	InterfaceCadastro tela = new InterfaceCadastro();
 	tela.setVisible(true); 
 }
